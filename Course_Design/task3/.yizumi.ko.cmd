@@ -1,0 +1,1 @@
+cmd_/home/yizumi/Course_Design/task3/yizumi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/yizumi/Course_Design/task3/yizumi.ko /home/yizumi/Course_Design/task3/yizumi.o /home/yizumi/Course_Design/task3/yizumi.mod.o ;  true
